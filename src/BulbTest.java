@@ -10,13 +10,13 @@ public class BulbTest {
 	@Before
 	public void setUp() throws Exception 
 	{
-		bulb = new Bulb(50);
+		bulb = new Bulb(200);
 	}
 
 	@Test
 	public void test() 
 	{
-		assertEquals(50,bulb.getBulbWatts());
+		assertEquals(200,bulb.getBulbWatts());
 	}
 
 }
